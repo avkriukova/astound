@@ -1,4 +1,4 @@
-.block{
+.block {
     display: block;
 }
 
@@ -8,20 +8,31 @@
     margin-right: auto;
 }
 
-.hero{
+.hero {
     height: 200px;
     width: auto;
     border-radius: 50%;
     border: 1rem solid blueviolet;
 }
 
-.hero-text{
+.hero-text {
     color: rgb(250, 51, 144);
     font-size: 55px;
     text-align: center;
 }
 
-.content{
+.content {
     padding: 50px;
-    border: 1px dashed  rosybrown;    
-} 
+    border: 1px dashed rosybrown;
+}
+
+.color-button {
+    cursor: pointer;
+    background-color: #cfcfcf;
+    border: none;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 100%;
+}
